@@ -44,19 +44,15 @@ Email notifications are sent via Amazon SNS with the following details:
 - Lead Owner
 - Funnel
 
-### 📬 Sample Lead Event (Input data)
-Below is an example of a Close CRM Webhook lead event:
-```json
-![crm_event_lead_68DAVGDg87oy3dsaBrIIi13PGsYYaH3myWKNndeuvkZ.json](crm_event_lead_68DAVGDg87oy3dsaBrIIi13PGsYYaH3myWKNndeuvkZ.json)
-```
+## 📄 Sample Lead Event (Input data)
+Below is an example of a Close CRM Webhook lead event:  
+[crm_event_lead_68DAVGDg87oy3dsaBrIIi13PGsYYaH3myWKNndeuvkZ.json](crm_event_lead_68DAVGDg87oy3dsaBrIIi13PGsYYaH3myWKNndeuvkZ.json)
 
-### 📬 Sample Lead-Owner Information (Processed data)
-Below is an example of a Close CRM Lead-Owner information:
-```json
-![crm_enriched_lead_68DAVGDg87oy3dsaBrIIi13PGsYYaH3myWKNndeuvkZ.json](crm_enriched_lead_68DAVGDg87oy3dsaBrIIi13PGsYYaH3myWKNndeuvkZ.json)
-```
+## 📄 Sample Lead-Owner Information (Processed data)
+Below is an example of a Close CRM lead-owner information:
+[crm_enriched_lead_68DAVGDg87oy3dsaBrIIi13PGsYYaH3myWKNndeuvkZ.json](crm_enriched_lead_68DAVGDg87oy3dsaBrIIi13PGsYYaH3myWKNndeuvkZ.json)
 
-### 📬 Sample Notification Payload (Output data)
+## 📬 Sample Notification Payload (Output data)
 Below is an example of the enriched lead notification sent via Amazon SNS (Email):
 ```json
 {
