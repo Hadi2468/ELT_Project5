@@ -17,7 +17,7 @@ This project solves that problem by:
 
 ## 🧩 Architecture
 ![System-Design](project5_system_design.png)
-```json
+```text
 Close CRM
    ↓ (Webhook)
 API Gateway
@@ -49,7 +49,7 @@ Below is an example of a Close CRM Webhook lead event:
 [crm_event_lead_68DAVGDg87oy3dsaBrIIi13PGsYYaH3myWKNndeuvkZ.json](crm_event_lead_68DAVGDg87oy3dsaBrIIi13PGsYYaH3myWKNndeuvkZ.json)
 
 ## 📄 Sample Lead-Owner Information (Processed data)
-Below is an example of a Close CRM lead-owner information:
+Below is an example of a Close CRM lead-owner information:  
 [crm_enriched_lead_68DAVGDg87oy3dsaBrIIi13PGsYYaH3myWKNndeuvkZ.json](crm_enriched_lead_68DAVGDg87oy3dsaBrIIi13PGsYYaH3myWKNndeuvkZ.json)
 
 ## 📬 Sample Notification Payload (Output data)
