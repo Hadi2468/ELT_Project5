@@ -44,19 +44,30 @@ Email notifications are sent via Amazon SNS with the following details:
 - Lead Owner
 - Funnel
 
-### 📬 Sample Notification Payload
+### 📬 Sample Lead Event (Input data)
+Below is an example of a Close CRM Webhook lead event:
+```json
+![crm_event_lead_68DAVGDg87oy3dsaBrIIi13PGsYYaH3myWKNndeuvkZ.json](crm_event_lead_68DAVGDg87oy3dsaBrIIi13PGsYYaH3myWKNndeuvkZ.json)
+```
+
+### 📬 Sample Lead-Owner Information (Processed data)
+Below is an example of a Close CRM Lead-Owner information:
+```json
+![crm_enriched_lead_68DAVGDg87oy3dsaBrIIi13PGsYYaH3myWKNndeuvkZ.json](crm_enriched_lead_68DAVGDg87oy3dsaBrIIi13PGsYYaH3myWKNndeuvkZ.json)
+```
+
+### 📬 Sample Notification Payload (Output data)
 Below is an example of the enriched lead notification sent via Amazon SNS (Email):
 ```json
 {
-  "alert": "New Lead Alert",
-  "icon": "🔔",
-  "name": "Guy Tamo",
-  "lead_id": "lead_kCDifxlO1O8vdWMs7CYD18UX1mxq6tgl1mcCq6fUP6a",
-  "created_date": "2026-01-12T18:28:47.530000+00:00",
-  "status_label": "Interested",
-  "lead_email": "guydrums86@gmail.com",
-  "lead_owner": "Józsa Zalán",
-  "funnel": "None"
+"New Lead Alert": "🔔",
+"Name": "Kamalpreet kaur",
+"Lead ID": "lead_68DAVGDg87oy3dsaBrIIi13PGsYYaH3myWKNndeuvkZ",
+"Created Date": "2026-01-12T21:05:46.419000+00:00",
+"Label": "Potential",
+"Email": "kamalkaur0109@gmail.com",
+"Lead Owner": "Ninad Magdum",
+"Funnel": "DE ACADEMY Direct VSL"
 }
 ```
 ## ✅ Results
