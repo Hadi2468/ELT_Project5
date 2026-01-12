@@ -79,7 +79,7 @@ Below is an example of the enriched lead notification sent via Amazon SNS (Email
 ▶️ Data warehouse integration  
 ▶️ Lead scoring & ML models  
 
-## 👤 Author
+## 🧑🏻‍💻 Author
 **Hadi Hosseini**  
 Data Engineer | AI/ML Engineer | Biomedical Data Scientist  
 ➡️ www.linkedin.com/in/hadi468  
